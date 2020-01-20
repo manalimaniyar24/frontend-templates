@@ -1,0 +1,57 @@
+body{
+   font-family: Tahoma, Geneva, sans-serif;
+   color: #fff;
+   background-image: url("university.jpg");
+   background-repeat: no repeat;
+   background-size:1550px 800px;
+   background-attachment: fixed;
+
+   }
+ .gallery-block{padding-bottom:60px; padding-top: 60px;}
+ .gallery-block .heading{margin-bottom: 50px; text-align: center;}
+ 
+ .gallery-block .heading h1 { text-transform: uppercase; text-align:center; font-family: Tahoma, Geneva, sans;}
+.gallery-block .cards-gallery .card{transition: 1s easy;}
+.gallery-block .cards-gallery .card{background:transparent;}
+.gallery-block .cards-gallery .card-body p{font-size: 15px;}
+.gallery-block .cards-gallery a{color: #212529;}
+.gallery-block .cards-gallery a:hover{text-decoration: none;}
+.gallery-block .cards-gallery .card{
+	margin-bottom: 30px;
+	box-shadow: 0px 5px 13px rgba(0,0,0,0.9);
+}
+.gallery-block .border-0 {opacity: 0.7;}
+@media(min-width: 576px){
+	.gallery-block .transform-on-hover:hover{
+		transform: translateY(-10) scale(1.02);
+		opacity: 1
+
+		;
+		box-shadow: 0px 12px 12px rgba(0,0,0,0.80) !important;
+	} 
+}
+
+
+
+
+<div class="jumbotron text-center jumbo">	
+		
+		    <h1>Welcome on board</h1>
+		    <p>We are here to help you with your performance</p>	
+		    <h3>LEARN.IMPROVE.GROW.</h3>
+		</div>
+
+
+
+ <div class="row">
+			<div class="col-md-5 scores">
+				<h5 class="text-center"><u><b>ACADEMIC SCORES</b></u></h5>
+				<br>
+				<p>Term Work:</p><br>
+				<p>Theory:</p><br>
+				<p>Total:</p><br>
+				<p>Percentage:</p><br>
+			</div>
+			 <div class="col-md-3 space"></div>
+			 <div class="col-md-3 click">.col-md-4 .offset-md-4</div>
+		</div>
